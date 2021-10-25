@@ -14,21 +14,38 @@ import java.util.*;
      public JobListing() {
 
      }
-     public JobListing(String id, String companyName, String jobDescription, ArrayList<String> requiredQuals, ArrayList<String> prefferedQuals) {
 
+     public JobListing(UUID id, String companyName, String jobDescription, ArrayList<String> requiredQuals, ArrayList<String> prefferedQuals) {
+        this.id = id;
+        this.companyName = companyName;
+        this.jobDescription = jobDescription;
+        this.prefferedQuals = prefferedQuals;
+        this.requiredQuals = requiredQuals;
+        isOpen = true;
      }
 
      public JobListing getJob(String id){
-         //TODO
-	return new JobListing();
+	    return this;
 
      }
 
-     public double getRaiting(){
-         //TODO
-	return 0.0;
+     public String getJobTitle() {
+         return jobTitle;
      }
-     public void sendInterestMEssage(String studentID){
-       
+
+     public String getCompanyName() {
+         return companyName;
+     }
+
+     public boolean isOpen() {
+         return isOpen;
+     }
+
+     public double getRating(){
+	    return rating;
+     }
+
+     public void sendInterestMessage(String studentID){
+       //TODO
      }
  }

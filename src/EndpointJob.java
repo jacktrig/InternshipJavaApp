@@ -3,14 +3,15 @@ import java.util.ArrayList;
 public class EndpointJob {
 
   private ArrayList<JobListing> list;
-
+/*
   public static void create(JobListing job){
       this.list.add(job)
     }
-
+*/
   /**
    * @return Job
    */
+  /*
   public static JobListing readDetail(int id) {
 
     for (int i = 0; i < this.list.size(); i++) {
@@ -19,10 +20,12 @@ public class EndpointJob {
       }
     }
   }
+  */
 
   /** 
      * @return Job[]
      */
+    /*
     public static JobListing[] readList() {
       return this.list 
     }
@@ -46,5 +49,6 @@ public class EndpointJob {
     }
     return false 
   }
+  */
 
 }

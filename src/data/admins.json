@@ -1,1 +1,1 @@
-[{"user id": "74411361-fc87-486c-9dd8-4a86c2e1d208"}, {"user id": "147efda3-2eb8-42bb-aaea-e40ff1cb02ff"}]
+[{"id": "74411361-fc87-486c-9dd8-4a86c2e1d208", "firstName": "first", "lastName": "last", "userName": "username", "password": "password", "email": "email", "phoneNumber": "8888888"}, {"id": "147efda3-2eb8-42bb-aaea-e40ff1cb02ff", "firstName": "first", "lastName": "last", "userName": "username", "password": "password", "email": "email", "phoneNumber": "8888888"}]

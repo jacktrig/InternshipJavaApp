@@ -1,12 +1,12 @@
 [
   {
-    "User ID": "8543267d-de28-49b0-85ba-e7560bd4f645",
-    "First Name": "John",
-    "Last Name": "Doe",
-    "Username": "jdoe",
-    "Password": "password",
-    "Email": "jdaddy@yahoo.com",
-    "Phone": "999-9999",
+    "userID": "8543267d-de28-49b0-85ba-e7560bd4f645",
+    "firstName": "John",
+    "lastName": "Doe",
+    "username": "jdoe",
+    "password": "password",
+    "email": "jdaddy@yahoo.com",
+    "phoneNumber": "999-9999",
     "education": {
 	"schoolName": "University of South Carolina",
 	"degree": "Bachelors Degree in Business",
@@ -42,7 +42,7 @@
     "username": "jdane",
     "password": "whatup",
     "email": "jdanish@gmail.com",
-    "phone": "555-5555",
+    "phoneNumber": "555-5555",
     "education": {
       "schoolName": "University of Southern California",
       "degree": "Bachelors of Science in Computer Science",

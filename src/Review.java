@@ -6,20 +6,21 @@ public class Review {
 	public Review() {
 
 	}
-	public Review(User writer, String comment, double score){
-   
+	public Review(User writer, String comment, double rating){
+		this.writer = writer;
+		this.comment = comment;
+		this.rating = rating;
 	}
    
 	public User getWriter(){
-
-	  return new Student();
+		return writer;
 	}
    
 	public String getComment(){
-          return "str";
+    	return comment;
 	}
    
 	public double getRating(){
-	  return 0.0;
+	 	return rating;
 	}
     }
