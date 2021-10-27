@@ -15,6 +15,22 @@ import java.util.ArrayList;
        this.positionDescription = positionDescription;
        this.datesOfExperience = datesOfExperience;
      }
+     public String getCompanyName() {
+       return this.companyName;
+     }
+     public String getLocation() {
+       return this.experienceLocation;
+     }
+     public String getPositionTitle() {
+       return this.positionTitle;
+     }
+     public String getPositionDescription() {
+       return this.positionDescription;
+     }
+     public String getExperienceDates() {
+       return this.datesOfExperience;
+     }
+
 
      public ArrayList<String> addExperienceDetail(String detailDescription){
        return new ArrayList<>();

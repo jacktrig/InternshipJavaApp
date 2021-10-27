@@ -7,8 +7,8 @@ import java.util.UUID;
 
 public class Student extends User {
     private ArrayList<Education> educations;
-    private ArrayList<Resume> resumes;
-    private ArrayList<ResumeExperience> experiences;
+    public ArrayList<Resume> resumes;
+    public ArrayList<ResumeExperience> experiences;
     private ArrayList<Review> reviews;
     
     public Student() {
@@ -27,6 +27,9 @@ public class Student extends User {
       this.resumes = new ArrayList<>();
       this.reviews = new ArrayList<>();
     }
+    public ArrayList<Education> getEducations() {
+      return this.educations;
+    }
 
     public void addEducation(Education education) {
       this.educations.add(education);
@@ -34,6 +37,9 @@ public class Student extends User {
 
     public void addResume(Resume resume) {
       this.resumes.add(resume);
+    }
+    public ArrayList<Resume> getResumes() {
+      return this.resumes;
     }
 
     public Resume createResume(String id, ArrayList<ResumeExperience> workExp, ArrayList<String> skills, ArrayList<String> currentClasses) {
