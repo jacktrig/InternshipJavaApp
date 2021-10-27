@@ -3,29 +3,37 @@ import java.util.ArrayList;
 
 public class Resume {
   private String id;
-  private ArrayList<ResumeExperience> workExp;
+  private ArrayList<Education> educations;
+  private ArrayList<ResumeExperience> experiences;
   private ArrayList<String> skills;
   private ArrayList<String> currentClasses;
   /**
    * calls and assign the  strings and the array lists 
    */
   public Resume() {
-    this.workExp = new ArrayList<ResumeExperience>();
+    this.experiences = new ArrayList<ResumeExperience>();
     this.skills = new ArrayList<String>();
     this.currentClasses = new ArrayList<String>();
   }
   /**
    * creates the resume constructor 
    * @param id
-   * @param workExp
+   * @param experiences
    * @param skills
    * @param currentClasses
    */
-  public Resume(String id, ArrayList<ResumeExperience> workExp, ArrayList<String> skills, ArrayList<String> currentClasses) {
+  public Resume(String id, ArrayList<ResumeExperience> experiences, ArrayList<String> skills, ArrayList<String> currentClasses) {
     this.id = id;
-    this.workExp = workExp;
+    this.experiences = experiences;
     this.skills = skills;
     this.currentClasses = currentClasses;
+  }
+  public void addEducation(Education education) {
+    this.educations.add(education);
+  }
+  
+  public void addExperience(ResumeExperience experience) {
+    this.experiences.add(experience);
   }
   /**
    * adds skill to the arraylist 

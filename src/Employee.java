@@ -1,12 +1,15 @@
 import java.util.ArrayList;
 
 public class Employee extends User {
-    private String companyName;
-    private String jobTitle;
+    public String companyName;
+    public String jobTitle;
     private ArrayList<Review> reviews;
 
-    public Employee() {
-      
+    public Employee(String id, String firstName, String lastName, String username, String password, String email, String phone, String companyName, String jobTitle) {
+      super(id, firstName, lastName, username, password, email, phone);
+      this.companyName = companyName;
+      this.jobTitle = jobTitle;
+
     }
 
     public Employee(String companyName, String jobTitle){

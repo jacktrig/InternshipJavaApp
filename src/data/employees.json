@@ -1,1 +1,24 @@
-[{"User ID": "6e3e77a4-eebd-456e-aa6e-1cebb748ae61", "Company Name":"Google", "Job Title":"Software Engineer"}, {"User ID": "26ffdbdc-4a04-4b59-b8ee-e710edc2407d", "Company Name":"Amazon", "Job Title":"Area Manager"}]
+[
+  {
+    "id": "6e3e77a4-eebd-456e-aa6e-1cebb748ae61",
+    "firstName": "firstname",
+    "lastName": "lastname",
+    "userName": "user",
+    "password": "password",
+    "email":"emailaddress",
+    "phoneNumber": "0000000000",
+    "companyName": "Google",
+    "jobTitle": "Software Engineer"
+  },
+  {
+    "id": "26ffdbdc-4a04-4b59-b8ee-e710edc2407d", 
+    "firstName": "firstname",
+    "lastName": "lastname",
+    "userName": "user",
+    "password": "password",
+    "email":"emailaddress",
+    "phoneNumber": "0000000001",
+    "Company Name": "Amazon",
+    "Job Title": "Area Manager"
+  }
+]

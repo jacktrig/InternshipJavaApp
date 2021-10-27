@@ -21,8 +21,8 @@ public ArrayList<Student> getStudentList() {
 	return studentList;
 }
 
-public void addStudent(String firstName, String lastName, String userName, String password, String email, String phoneNumber, String major) {
-	studentList.add(new Student(firstName, lastName, userName, password, email, phoneNumber, major));
+public void addStudent(String id, String firstName, String lastName, String userName, String password, String email, String phoneNumber) {
+	studentList.add(new Student(id, firstName, lastName, userName, password, email, phoneNumber));
 }
 
 public void logout(){

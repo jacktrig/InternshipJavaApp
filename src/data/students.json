@@ -7,33 +7,38 @@
     "password": "password",
     "email": "jdaddy@yahoo.com",
     "phoneNumber": "999-9999",
-    "education": {
-	"schoolName": "University of South Carolina",
-	"degree": "Bachelors Degree in Business",
-	"major": "Business Management",
-	"gpa": "3.5"
+    "education": [
+      {
+        "schoolName": "University of South Carolina",
+        "degree": "Bachelors Degree in Business",
+        "major": "Business Management",
+        "gpa": "3.5"
       },
-      "workExperience": [
-	  {
-	    "companyName": "Intel",
-	    "location": "Santa Barbara, California ",
-	    "description": "Intel chips are slow"
-	  },
-	  {
-	    "companyName": "Starbucks",
-	    "location": "Santa Barbara, California",
-	    "description": "I like starbucks"
-	  }
-	],
-	"skills": ["Customer Service Oriented", "Leader"],
-	"currentClasses": [
-	  {
-	    "className": "Business Management 300", "classDescription": "Managing business employees"
-	  },
-	  { 
-	    "className": "Finance 101", "classDescription": "make good financial decisions" 
-	  }  
-	]
+      {
+        "schoolName": "University of South Carolina",
+        "degree": "Bachelors Degree in Business",
+        "major": "Business Management",
+        "gpa": "3.5"
+      }
+    ],
+    "workExperience": [
+      {
+        "companyName": "Intel",
+        "location": "Santa Barbara, California ",
+        "positionTitle": "software engineer",
+        "description": "Google is cool",
+        "dates": "10/20/19 - 10/30/20"
+      },
+      {
+        "companyName": "Starbucks",
+        "location": "Santa Barbara, California",
+        "positionTitle": "software engineer",
+        "description": "Google is cool",
+        "dates": "10/20/19 - 10/30/20"
+      }
+    ],
+    "skills": ["Customer Service Oriented", "Leader"],
+    "currentClasses": ["Business Management 300", "Finance 101"]
   },
   {
     "userID": "4ec4a282-6da3-44d9-a637-45251fe1e9cb",
@@ -50,25 +55,22 @@
       "gpa": "4.0"
     },
     "workExperience": [
-        {
-          "companyName": "Google",
-          "location": "Seattle, WA",
-          "description": "Google is cool"
-        },
-        {
-          "companyName": "Amazon",
-          "location": "Seattle, WA",
-          "description": "Amazon is cool"
-        }
-      ],
-      "skills": ["Problem Solving", "Communication"],
-      "currentClasses": [
-	{
-	  "className": "Data Structure and Algorithm", "classDescription": "we learn about data structures"
-	},
-	{ 
-	  "className": "Software Engineering", "classDescription": "new design patterns" 
-	}  
-      ]
+      {
+        "companyName": "Google",
+        "location": "Seattle, WA",
+        "positionTitle": "software engineer",
+        "description": "Google is cool",
+        "datesOfExp": "10/20/19 - 10/30/20"
+      },
+      {
+        "companyName": "Amazon",
+        "location": "Seattle, WA",
+        "description": "Amazon is cool", 
+        "positionTitle": "software engineer",
+        "datesOfExp": "10/20/19 - 10/30/20"
+      }
+    ],
+    "skills": ["Problem Solving", "Communication"],
+    "currentClasses": ["Data Structure and Algorithm", "Software Engineering"]
   }
 ]

@@ -6,33 +6,34 @@ import java.util.ArrayList;
 import java.util.UUID;
 
 public class Student extends User {
-    private String major;
-    private double GPA;
+    private ArrayList<Education> educations;
     private ArrayList<Resume> resumes;
+    private ArrayList<ResumeExperience> experiences;
     private ArrayList<Review> reviews;
     
     public Student() {
       
     }
 
-    public Student(
+    public Student(String id,
                    String firstName,
                    String lastName,
                    String username,
                    String password,
                    String email,
-                   String phone,
-                   String major) {
-      this.major = major;
-      resumes = new ArrayList<Resume>();
+                   String phone
+                  ) {
+      super(id, firstName, lastName, username, password, email, phone);         
+      this.resumes = new ArrayList<>();
+      this.reviews = new ArrayList<>();
     }
 
-    public String getMajor() {
-      return major;
+    public void addEducation(Education education) {
+      this.educations.add(education);
     }
 
     public void addResume(Resume resume) {
-      resumes.add(resume);
+      this.resumes.add(resume);
     }
 
     public Resume createResume(String id, ArrayList<ResumeExperience> workExp, ArrayList<String> skills, ArrayList<String> currentClasses) {
